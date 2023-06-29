@@ -1,20 +1,26 @@
 const func = require("../q3");
+const input = [7, 8, 19, 20];
 
 const yes = "YES";
 const no = "NO";
 
+//these comments are here, so that you won't see test cases :P
+//these comments are here, so that you won't see test cases :P
+//these comments are here, so that you won't see test cases :P
+//these comments are here, so that you won't see test cases :P
+
 test("q3 test case 1", () => {
-  expect(func(7)).toEqual(yes);
+  expect(func(input[0])).toEqual(yes);
 });
 
 test("q3 test case 2", () => {
-  expect(func(8)).toEqual(no);
+  expect(func(input[1])).toEqual(no);
 });
 
 test("q3 test case 3", () => {
-  expect(func(19)).toEqual(yes);
+  expect(func(input[2])).toEqual(yes);
 });
 
 test("q3 test case 4", () => {
-  expect(func(20)).toEqual(no);
+  expect(func(input[3])).toEqual(no);
 });
