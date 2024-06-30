@@ -14,7 +14,7 @@
 
 ### คำอธิบายเกี่ยวกับการใช้งาน TypeScript
 
-หากในโปรเจคโฟลเดอร์ยังไม่มี `package.json` ให้ initialize project ด้วยคำสั่ง
+หากในโปรเจคโฟลเดอร์ยังไม่มี `package.json` ให้ initialize project ด้วยการ**รันคำสั่งต่อไปนี้ภายในโปรเจคโฟลเดอร์**
 
 ```bash
 $ npm init -y
