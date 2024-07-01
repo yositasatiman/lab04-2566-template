@@ -1,5 +1,8 @@
 function typeChecker(a, b) {
-  /* Your code here */
+  if (typeof a === typeof b) {
+    return `${a},${b}`;
+  }
+  return 'NOT MATCHED'
 }
 
 //Test cases
@@ -15,3 +18,5 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+// Yosita Satiman 660610788?//

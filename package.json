@@ -1,17 +1,23 @@
 {
-  "name": "lab_02_answers",
+  "name": "lab04",
   "version": "1.0.0",
-  "description": "",
+  "description": "lab04",
   "main": "index.js",
   "devDependencies": {
     "@babel/core": "*",
-    "babel-jest": "*",
     "@babel/preset-env": "*",
+    "babel-jest": "*",
     "jest": "^27.0.6"
   },
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "YositaSatiman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescipt": "^1.0.0",
+    "typescript": "^5.5.3"
+  }
 }
